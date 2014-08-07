@@ -21,7 +21,7 @@ exec         = {}
 options      = { 'port' => 4567, 'bind' => '0.0.0.0' }
 wiki_options = {
     :live_preview  => false,
-    :allow_uploads => false,
+    :allow_uploads => true,
 }
 
 opts = OptionParser.new do |opts|
